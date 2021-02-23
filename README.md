@@ -84,4 +84,4 @@ Obs1: Caso seja necessário editar o **endpoint da** **api**, vá até o arquivo
 
 `baseURL: 'http://localhost:8080'`
 
-Obs2: Caso seja necessário rodar o app direto no celular, será necessário alterar o endpoint para o caminho completo da api, passando o ip da rede local do seu computador. Ex: http://192.168.0.21/app-noticias-react-native/api-noticias/public. Substituindo **192.168.0.21** por seu **IP** da rede local.
+Obs2: Caso seja necessário rodar o app direto no celular, é preciso alterar o endpoint para o caminho completo da api passando o ip da rede local do seu computador. Ex: http://192.168.0.21/app-noticias-react-native/api-noticias/public. Substituindo **192.168.0.21** por seu **IP** da rede local.
