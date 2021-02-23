@@ -3,8 +3,7 @@ import axios from 'axios'
 import { Alert } from 'react-native'
 
 const api = axios.create({
-  // baseURL: 'http://localhost:8080',
-  baseURL: 'http://192.168.0.21/teste-91seguros/api-noticias/public',
+  baseURL: 'http://localhost:8080',
   headers: {
     'Content-Type': 'application/json',
     Accept: 'application/json',

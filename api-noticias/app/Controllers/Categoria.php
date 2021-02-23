@@ -85,7 +85,7 @@ class Categoria extends ResourceController
                 'status' => 200,
                 'error' => null,
                 'messages' => [
-                    'success' => 'Categoria exluída com sucesso',
+                    'success' => 'Categoria excluída com sucesso',
                 ],
             ];
             return $this->respondDeleted($response);

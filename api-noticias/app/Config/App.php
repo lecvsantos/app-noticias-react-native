@@ -23,8 +23,7 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	// public $baseURL = 'http://localhost:8080/';
-	public $baseURL = 'http://192.168.0.21/teste-91seguros/api-noticias/public/';
+	public $baseURL = 'http://localhost:8080/';
 
 	/**
 	 * --------------------------------------------------------------------------

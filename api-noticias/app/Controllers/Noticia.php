@@ -86,7 +86,7 @@ class Noticia extends ResourceController
                 'status' => 200,
                 'error' => null,
                 'messages' => [
-                    'success' => 'Notícia exluída com sucesso',
+                    'success' => 'Notícia excluída com sucesso',
                 ],
             ];
             return $this->respondDeleted($response);

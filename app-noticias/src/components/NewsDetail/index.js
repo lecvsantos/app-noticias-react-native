@@ -5,7 +5,6 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import Moment from 'moment';
 
 export default function NewsDetail({ news }) {
-  console.log(news);
   var dt = news.dt_criacao;
   return (
     <Container>
