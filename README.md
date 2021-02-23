@@ -13,27 +13,46 @@ O app conta com funcionalidade de infinite scroll para a paginação das noticia
 Após clonar o reposítorio no seu computador, faça a instalação da api rodando os seguintes comandos no seu terminal
 
 `cd api-noticias`
+
 `composer update`
 
 Para configurar o banco de dados, importe o arquivo .sql disponibilizado no repositório na sua instalação MySql, acesse o arquivo **app/Config/Database.php** e edite para configurar o banco de dados. Algo parecido como:
 
-`public $default = [
-		'DSN'      => '',
-		'hostname' => 'localhost',
-		'username' => 'root',
-		'password' => '',
-		'database' => 'noticias_91_seguros',
-		'DBDriver' => 'MySQLi',
-		...
-];`
+`public $default = [`
+
+`'DSN' => '',`
+
+`'hostname' => 'localhost',`
+
+`'username' => 'root',`
+
+`'password' => '',`
+
+`'database' => 'noticias_91_seguros',`
+
+`'DBDriver' => 'MySQLi',`
+
+`...`
+
+`];`
 
 Ou poderá ser configurado pelo arquivo **.env** do seu projeto. Para isso edite as seguintes linhas, ficando algo parecido como:
 
-`database.default.hostname = localhost
-database.default.database = noticias_91_seguros
-database.default.username = root
-database.default.password = ''
+`database.default.hostname = localhost`
+
+`
+database.default.database = noticias_91_seguros`
+
+`
+database.default.username = root`
+
+`
+database.default.password = ''`
+
+`
 database.default.DBDriver = MySQLi`
+
+
 
 Após a instalação e configuração do banco de dados o projeto já pode ser iniciado, para isso rode o comando no seu terminal
 
@@ -52,6 +71,7 @@ Primeiro de tudo devemos instalar o **Expo CLI** caso ainda não esteja instalad
 Após a instalação do Expo CLI, rode os seguintes comandos no seu terminal para instalar as dependencias do app
 
 `cd app-noticias`
+
 `npm install`
 
 Após a instalação das dependencias do projeto, podemos iniciar app através do seguinte comando:
